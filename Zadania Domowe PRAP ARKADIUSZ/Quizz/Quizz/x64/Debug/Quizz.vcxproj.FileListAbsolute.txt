@@ -1,0 +1,3 @@
+C:\Users\Programista\Desktop\JKiecok2CT\Quizz\Quizz\x64\Debug\Quizz.vcxproj.AssemblyReference.cache
+C:\Users\Programista\Desktop\JKiecok2CT\Quizz\Quizz\x64\Debug\Quizz.MyForm.resources
+C:\Users\Programista\Desktop\JKiecok2CT\Quizz\Quizz\x64\Debug\Quizz.vcxproj.GenerateResource.cache
