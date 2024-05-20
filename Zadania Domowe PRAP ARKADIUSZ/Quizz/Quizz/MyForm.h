@@ -150,11 +150,11 @@ namespace Quizz {
 			// nr
 			// 
 			this->nr->AutoSize = true;
-			this->nr->Font = (gcnew System::Drawing::Font(L"Bauhaus 93", 27.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->nr->Font = (gcnew System::Drawing::Font(L"News706 BT", 27.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->nr->Location = System::Drawing::Point(263, 31);
 			this->nr->Name = L"nr";
-			this->nr->Size = System::Drawing::Size(118, 42);
+			this->nr->Size = System::Drawing::Size(122, 45);
 			this->nr->TabIndex = 0;
 			this->nr->Text = L"Quizz";
 			// 
@@ -170,17 +170,17 @@ namespace Quizz {
 			this->groupBox1->Size = System::Drawing::Size(500, 50);
 			this->groupBox1->TabIndex = 1;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Jak wywo³ujemy tekst w c++";
+			this->groupBox1->Text = L"Kto napisal Lalke\?";
 			// 
 			// rbNOT2
 			// 
 			this->rbNOT2->AutoSize = true;
-			this->rbNOT2->Location = System::Drawing::Point(400, 19);
+			this->rbNOT2->Location = System::Drawing::Point(386, 19);
 			this->rbNOT2->Name = L"rbNOT2";
-			this->rbNOT2->Size = System::Drawing::Size(94, 17);
+			this->rbNOT2->Size = System::Drawing::Size(108, 17);
 			this->rbNOT2->TabIndex = 2;
 			this->rbNOT2->TabStop = true;
-			this->rbNOT2->Text = L"cout >> \"text\";";
+			this->rbNOT2->Text = L"Boles³aw Chrobry";
 			this->rbNOT2->UseVisualStyleBackColor = true;
 			// 
 			// rbNOT
@@ -188,10 +188,10 @@ namespace Quizz {
 			this->rbNOT->AutoSize = true;
 			this->rbNOT->Location = System::Drawing::Point(208, 19);
 			this->rbNOT->Name = L"rbNOT";
-			this->rbNOT->Size = System::Drawing::Size(78, 17);
+			this->rbNOT->Size = System::Drawing::Size(107, 17);
 			this->rbNOT->TabIndex = 1;
 			this->rbNOT->TabStop = true;
-			this->rbNOT->Text = L"print(\"text\")";
+			this->rbNOT->Text = L"Adam Mickieiwcz";
 			this->rbNOT->UseVisualStyleBackColor = true;
 			// 
 			// rbOK
@@ -199,20 +199,23 @@ namespace Quizz {
 			this->rbOK->AutoSize = true;
 			this->rbOK->Location = System::Drawing::Point(25, 19);
 			this->rbOK->Name = L"rbOK";
-			this->rbOK->Size = System::Drawing::Size(94, 17);
+			this->rbOK->Size = System::Drawing::Size(93, 17);
 			this->rbOK->TabIndex = 0;
 			this->rbOK->TabStop = true;
-			this->rbOK->Text = L"cout << \"text\";";
+			this->rbOK->Text = L"Boles³aw Prus";
 			this->rbOK->UseVisualStyleBackColor = true;
 			// 
 			// button1
 			// 
+			this->button1->BackColor = System::Drawing::Color::White;
+			this->button1->Font = (gcnew System::Drawing::Font(L"MS Gothic", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(238)));
 			this->button1->Location = System::Drawing::Point(191, 417);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(259, 82);
 			this->button1->TabIndex = 3;
-			this->button1->Text = L"Zatwierdz\'";
-			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Text = L"Zatwierdz";
+			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// label1
@@ -230,45 +233,40 @@ namespace Quizz {
 			this->label2->AutoSize = true;
 			this->label2->Location = System::Drawing::Point(598, 128);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(35, 13);
+			this->label2->Size = System::Drawing::Size(0, 13);
 			this->label2->TabIndex = 5;
-			this->label2->Text = L"label2";
 			// 
 			// label3
 			// 
 			this->label3->AutoSize = true;
 			this->label3->Location = System::Drawing::Point(598, 182);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(35, 13);
+			this->label3->Size = System::Drawing::Size(0, 13);
 			this->label3->TabIndex = 6;
-			this->label3->Text = L"label3";
 			// 
 			// label4
 			// 
 			this->label4->AutoSize = true;
 			this->label4->Location = System::Drawing::Point(598, 238);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(35, 13);
+			this->label4->Size = System::Drawing::Size(0, 13);
 			this->label4->TabIndex = 7;
-			this->label4->Text = L"label4";
 			// 
 			// label5
 			// 
 			this->label5->AutoSize = true;
 			this->label5->Location = System::Drawing::Point(598, 294);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(35, 13);
+			this->label5->Size = System::Drawing::Size(0, 13);
 			this->label5->TabIndex = 8;
-			this->label5->Text = L"label5";
 			// 
 			// label6
 			// 
 			this->label6->AutoSize = true;
 			this->label6->Location = System::Drawing::Point(598, 350);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(35, 13);
+			this->label6->Size = System::Drawing::Size(0, 13);
 			this->label6->TabIndex = 9;
-			this->label6->Text = L"label6";
 			// 
 			// groupBox2
 			// 
@@ -282,17 +280,17 @@ namespace Quizz {
 			this->groupBox2->Size = System::Drawing::Size(500, 50);
 			this->groupBox2->TabIndex = 10;
 			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"Jak wywo³ujemy tekst w c++";
+			this->groupBox2->Text = L"Kto napisa³ Pana Tadeusza\?";
 			// 
 			// radioButton1
 			// 
 			this->radioButton1->AutoSize = true;
 			this->radioButton1->Location = System::Drawing::Point(400, 19);
 			this->radioButton1->Name = L"radioButton1";
-			this->radioButton1->Size = System::Drawing::Size(94, 17);
+			this->radioButton1->Size = System::Drawing::Size(88, 17);
 			this->radioButton1->TabIndex = 2;
 			this->radioButton1->TabStop = true;
-			this->radioButton1->Text = L"cout >> \"text\";";
+			this->radioButton1->Text = L"Pan Tadeusz";
 			this->radioButton1->UseVisualStyleBackColor = true;
 			// 
 			// rbOK2
@@ -300,10 +298,10 @@ namespace Quizz {
 			this->rbOK2->AutoSize = true;
 			this->rbOK2->Location = System::Drawing::Point(208, 19);
 			this->rbOK2->Name = L"rbOK2";
-			this->rbOK2->Size = System::Drawing::Size(78, 17);
+			this->rbOK2->Size = System::Drawing::Size(107, 17);
 			this->rbOK2->TabIndex = 1;
 			this->rbOK2->TabStop = true;
-			this->rbOK2->Text = L"print(\"text\")";
+			this->rbOK2->Text = L"Adam Mickiewicz";
 			this->rbOK2->UseVisualStyleBackColor = true;
 			// 
 			// radioButton3
@@ -311,10 +309,10 @@ namespace Quizz {
 			this->radioButton3->AutoSize = true;
 			this->radioButton3->Location = System::Drawing::Point(25, 19);
 			this->radioButton3->Name = L"radioButton3";
-			this->radioButton3->Size = System::Drawing::Size(94, 17);
+			this->radioButton3->Size = System::Drawing::Size(70, 17);
 			this->radioButton3->TabIndex = 0;
 			this->radioButton3->TabStop = true;
-			this->radioButton3->Text = L"cout << \"text\";";
+			this->radioButton3->Text = L"Jan Bach";
 			this->radioButton3->UseVisualStyleBackColor = true;
 			// 
 			// groupBox3
@@ -329,17 +327,17 @@ namespace Quizz {
 			this->groupBox3->Size = System::Drawing::Size(500, 50);
 			this->groupBox3->TabIndex = 3;
 			this->groupBox3->TabStop = false;
-			this->groupBox3->Text = L"Jak wywo³ujemy tekst w c++";
+			this->groupBox3->Text = L"Kto napisa³ Kordiana\?";
 			// 
 			// radioButton4
 			// 
 			this->radioButton4->AutoSize = true;
 			this->radioButton4->Location = System::Drawing::Point(400, 19);
 			this->radioButton4->Name = L"radioButton4";
-			this->radioButton4->Size = System::Drawing::Size(94, 17);
+			this->radioButton4->Size = System::Drawing::Size(92, 17);
 			this->radioButton4->TabIndex = 2;
 			this->radioButton4->TabStop = true;
-			this->radioButton4->Text = L"cout >> \"text\";";
+			this->radioButton4->Text = L"Adam Smo³ka";
 			this->radioButton4->UseVisualStyleBackColor = true;
 			// 
 			// rbOK3
@@ -347,10 +345,10 @@ namespace Quizz {
 			this->rbOK3->AutoSize = true;
 			this->rbOK3->Location = System::Drawing::Point(208, 19);
 			this->rbOK3->Name = L"rbOK3";
-			this->rbOK3->Size = System::Drawing::Size(78, 17);
+			this->rbOK3->Size = System::Drawing::Size(104, 17);
 			this->rbOK3->TabIndex = 1;
 			this->rbOK3->TabStop = true;
-			this->rbOK3->Text = L"print(\"text\")";
+			this->rbOK3->Text = L"Juliusz S³owacki";
 			this->rbOK3->UseVisualStyleBackColor = true;
 			// 
 			// radioButton6
@@ -358,10 +356,10 @@ namespace Quizz {
 			this->radioButton6->AutoSize = true;
 			this->radioButton6->Location = System::Drawing::Point(25, 19);
 			this->radioButton6->Name = L"radioButton6";
-			this->radioButton6->Size = System::Drawing::Size(94, 17);
+			this->radioButton6->Size = System::Drawing::Size(99, 17);
 			this->radioButton6->TabIndex = 0;
 			this->radioButton6->TabStop = true;
-			this->radioButton6->Text = L"cout << \"text\";";
+			this->radioButton6->Text = L"John Van Gogh";
 			this->radioButton6->UseVisualStyleBackColor = true;
 			// 
 			// groupBox4
@@ -376,17 +374,17 @@ namespace Quizz {
 			this->groupBox4->Size = System::Drawing::Size(500, 50);
 			this->groupBox4->TabIndex = 3;
 			this->groupBox4->TabStop = false;
-			this->groupBox4->Text = L"Jak wywo³ujemy tekst w c++";
+			this->groupBox4->Text = L"Kto skomponowal \"Dla Elizy\"\?";
 			// 
 			// rbOK4
 			// 
 			this->rbOK4->AutoSize = true;
 			this->rbOK4->Location = System::Drawing::Point(400, 19);
 			this->rbOK4->Name = L"rbOK4";
-			this->rbOK4->Size = System::Drawing::Size(94, 17);
+			this->rbOK4->Size = System::Drawing::Size(77, 17);
 			this->rbOK4->TabIndex = 2;
 			this->rbOK4->TabStop = true;
-			this->rbOK4->Text = L"cout >> \"text\";";
+			this->rbOK4->Text = L"Beethoven";
 			this->rbOK4->UseVisualStyleBackColor = true;
 			// 
 			// radioButton8
@@ -394,10 +392,10 @@ namespace Quizz {
 			this->radioButton8->AutoSize = true;
 			this->radioButton8->Location = System::Drawing::Point(208, 19);
 			this->radioButton8->Name = L"radioButton8";
-			this->radioButton8->Size = System::Drawing::Size(78, 17);
+			this->radioButton8->Size = System::Drawing::Size(58, 17);
 			this->radioButton8->TabIndex = 1;
 			this->radioButton8->TabStop = true;
-			this->radioButton8->Text = L"print(\"text\")";
+			this->radioButton8->Text = L"Chopin";
 			this->radioButton8->UseVisualStyleBackColor = true;
 			// 
 			// radioButton9
@@ -405,10 +403,10 @@ namespace Quizz {
 			this->radioButton9->AutoSize = true;
 			this->radioButton9->Location = System::Drawing::Point(25, 19);
 			this->radioButton9->Name = L"radioButton9";
-			this->radioButton9->Size = System::Drawing::Size(94, 17);
+			this->radioButton9->Size = System::Drawing::Size(68, 17);
 			this->radioButton9->TabIndex = 0;
 			this->radioButton9->TabStop = true;
-			this->radioButton9->Text = L"cout << \"text\";";
+			this->radioButton9->Text = L"Teletubis";
 			this->radioButton9->UseVisualStyleBackColor = true;
 			// 
 			// groupBox5
@@ -423,17 +421,17 @@ namespace Quizz {
 			this->groupBox5->Size = System::Drawing::Size(500, 50);
 			this->groupBox5->TabIndex = 3;
 			this->groupBox5->TabStop = false;
-			this->groupBox5->Text = L"Jak wywo³ujemy tekst w c++";
+			this->groupBox5->Text = L"Kto skomponowa³ Turecki Marsz";
 			// 
 			// radioButton10
 			// 
 			this->radioButton10->AutoSize = true;
 			this->radioButton10->Location = System::Drawing::Point(400, 19);
 			this->radioButton10->Name = L"radioButton10";
-			this->radioButton10->Size = System::Drawing::Size(94, 17);
+			this->radioButton10->Size = System::Drawing::Size(77, 17);
 			this->radioButton10->TabIndex = 2;
 			this->radioButton10->TabStop = true;
-			this->radioButton10->Text = L"cout >> \"text\";";
+			this->radioButton10->Text = L"Beethoven";
 			this->radioButton10->UseVisualStyleBackColor = true;
 			// 
 			// radioButton11
@@ -441,10 +439,10 @@ namespace Quizz {
 			this->radioButton11->AutoSize = true;
 			this->radioButton11->Location = System::Drawing::Point(208, 19);
 			this->radioButton11->Name = L"radioButton11";
-			this->radioButton11->Size = System::Drawing::Size(78, 17);
+			this->radioButton11->Size = System::Drawing::Size(58, 17);
 			this->radioButton11->TabIndex = 1;
 			this->radioButton11->TabStop = true;
-			this->radioButton11->Text = L"print(\"text\")";
+			this->radioButton11->Text = L"Chopin";
 			this->radioButton11->UseVisualStyleBackColor = true;
 			// 
 			// rbOK5
@@ -452,18 +450,18 @@ namespace Quizz {
 			this->rbOK5->AutoSize = true;
 			this->rbOK5->Location = System::Drawing::Point(25, 19);
 			this->rbOK5->Name = L"rbOK5";
-			this->rbOK5->Size = System::Drawing::Size(94, 17);
+			this->rbOK5->Size = System::Drawing::Size(57, 17);
 			this->rbOK5->TabIndex = 0;
 			this->rbOK5->TabStop = true;
-			this->rbOK5->Text = L"cout << \"text\";";
+			this->rbOK5->Text = L"Mozart";
 			this->rbOK5->UseVisualStyleBackColor = true;
 			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
-				static_cast<System::Int32>(static_cast<System::Byte>(64)));
+			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
 			this->ClientSize = System::Drawing::Size(692, 546);
 			this->Controls->Add(this->groupBox5);
 			this->Controls->Add(this->groupBox4);
